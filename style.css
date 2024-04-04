@@ -1,3 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+}
+
+.mktCapSort,
+.percentSort {
+  padding: 10px 20px;
+  height: 40px;
+  min-width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #36d1dc, #5b86e5);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.mktCapSort:hover,
+.percentSort:hover {
+  background: linear-gradient(to bottom, #1c92d2, #f2fcfe);
+}
 
 .data-container {
   flex: 1;
@@ -33,39 +67,12 @@ tr:hover {
   background-color: #777;
 }
 
-
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
-.container {
-  min-height: 100vh;
-  padding: 1em 2em;
+td:first-child {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  align-items: center;
+  gap: 10px;
 }
 
-.mktCapSort,
-.percentSort {
-  padding: 10px 20px;
-  height: 40px;
-  min-width: 150px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  background: linear-gradient(to bottom, #36d1dc, #5b86e5);
-  color: white;
-  transition: background-color 0.3s ease;
-}
-
-.mktCapSort:hover,
-.percentSort:hover {
-  background: linear-gradient(to bottom, #1c92d2, #f2fcfe);
+td:first-child img {
+  height: 20px; /* Adjust the height of the image */
 }
