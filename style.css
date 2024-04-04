@@ -75,4 +75,9 @@ td:first-child {
 
 td:first-child img {
   height: 20px; /* Adjust the height of the image */
+  width: auto; /* Maintain aspect ratio */
+}
+
+td:first-child span {
+  font-size: 14px; /* Adjust the font size of the text */
 }
