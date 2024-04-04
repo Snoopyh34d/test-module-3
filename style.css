@@ -67,3 +67,29 @@
 .search-box::placeholder {
   color: #999;
 }
+
+
+/* Update only table content */
+td:first-child img {
+  height: 24px; /* Increase the height of the image */
+  width: auto; /* Maintain aspect ratio */
+}
+
+td:first-child span {
+  font-size: 16px; /* Adjust the font size of the text */
+}
+
+/* Add hovering effect for table rows */
+tr:hover {
+  background-color: #353535; /* Darker background color on hover */
+}
+
+/* Adjust active state */
+tr:active {
+  background-color: #1a1a1c; /* Darker background color when active */
+}
+
+/* Update color gradient for table */
+.data-container {
+  background: linear-gradient(to bottom, #2c2c2c, #1a1a1c); /* Darker gradient background */
+}
