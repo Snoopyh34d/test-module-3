@@ -146,3 +146,55 @@ td:first-child span {
   background-color: #4CAF50;
   transform: scale(0.95);
 }
+
+
+
+.search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px; /* Increase padding */
+}
+
+.search-box {
+  padding: 15px; /* Increase padding */
+  height: 60px; /* Increase height */
+  flex: 1;
+  border: none;
+  border-radius: 30px; /* Increase border radius */
+  font-size: 18px; /* Increase font size */
+  background-color: #f5f5f5;
+  color: #333;
+  outline: none;
+}
+
+.search-box::placeholder {
+  color: #999;
+}
+
+.mktCapSort,
+.percentSort {
+  padding: 15px 30px; /* Increase padding */
+  height: 60px; /* Increase height */
+  min-width: 180px; /* Increase width */
+  border: none;
+  border-radius: 30px; /* Increase border radius */
+  font-size: 18px; /* Increase font size */
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.mktCapSort:hover,
+.percentSort:hover {
+  background-color: #45a049;
+}
+
+.mktCapSort:active,
+.percentSort:active {
+  background-color: #4CAF50;
+  transform: scale(0.95);
+}
