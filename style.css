@@ -4,15 +4,22 @@
     box-sizing: border-box;
     font-family: Inter;
 }
-
 .container {
     min-height: 100vh;
     padding: 1em 2em;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(to bottom, #ffe599);
+    background-color: #ffffff; /* Set background color to white or any other color you prefer */
 }
+/* .container {
+    min-height: 100vh;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(to bottom, #ffe599);
+} */
 
 .search {
     flex: 1;
