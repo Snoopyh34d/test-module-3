@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box {
+  padding: 10px;
+  height: 40px;
+  flex: 1;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.mktCapSort,
+.percentSort {
+  padding: 10px 20px;
+  height: 40px;
+  min-width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.mktCapSort:hover,
+.percentSort:hover {
+  background-color: #45a049;
+}
+
+.data-container {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+  background-color: #1a1a1c;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #555;
+}
+
+tr:hover {
+  background-color: #777;
+}
