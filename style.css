@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Inter;
 }
+
 .container {
     min-height: 100vh;
     padding: 1em 2em;
@@ -13,16 +14,6 @@
     background-color: #c9bee5; /* Light purple color */
 }
 
-/* .container {
-    min-height: 100vh;
-    padding: 1em 2em;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: #ffffff; /* Set background color to white or any other color you prefer */
-}
-
- */
 .search {
     flex: 1;
     display: flex;
@@ -121,4 +112,12 @@ td:first-child img {
 
 td:first-child span {
     font-size: 14px;
+}
+
+.td-green {
+    color: green; /* Color for positive percentage */
+}
+
+.td-red {
+    color: red; /* Color for negative percentage */
 }
